@@ -34,7 +34,7 @@ def can_be_created_in_a_block(args = { title: "Avengers", release_date: 2020 })
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  movie.first.title
 end
 
 def can_get_the_last_item_in_the_database
