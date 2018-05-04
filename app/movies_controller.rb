@@ -25,7 +25,7 @@ def can_be_created_with_a_hash_of_attributes
   movie
 end
 
-def can_be_created_in_a_block(args = __)
+def can_be_created_in_a_block(args = { title: "Avengers", release_date: 2020 })
   Movie.create do |m|
     __
   end
